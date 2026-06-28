@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#header {
+  height: 13%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  background-color: white;
+}
+#logo {
+  height: 70%;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text {
+  color: darkblue;
+  margin: 20px;
+  display: flex;
+}
+.text:hover {
+  color: rgb(0, 157, 255);
+}
+#contactDeatils {
+  font-weight: lighter;
+}
+.icon {
+  padding: 10px;
+  border-radius: 50%;
+}
+.icon:hover {
+  background-color: lightblue;
+}
+#login {
+  display: flex;
+  padding: 10px;
+  border-radius: 50px;
+}
+#login:hover {
+  background-color: lightblue;
+}
+#try {
+  background-color: rgb(79, 174, 79);
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+#try:hover {
+  background-color: darkgreen;
+}
+#fakeheader {
+  height: 13%;
+  width: 100%;
+  background-color: white;
+  /* position: fixed; */
+}
+#page1 {
+  height: 87%;
+  width: 100%;
+  background-color: salmon;
+}
+#strip {
+  width: 100%;
+  height: 8%;
+  background-color: rgb(7, 3, 116);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#strip u {
+  margin-left: 20px;
+  font-weight: lighter;
+}
+#strip p {
+  margin: 12px;
+}
+#strip u:hover {
+  color: antiquewhite;
+}
+#content {
+  width: 100%;
+  height: 76%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#box1 {
+  height: 95%;
+  width: 47%;
+  background-color: white;
+}
+#box2 {
+  height: 95%;
+  width: 47%;
+  background-color: white;
+}
+#box2 img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+#heading {
+  width: 100%;
+  height: 16%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(5, 5, 120);
+}
+#heading h1 {
+  font-weight: 600;
+}
+#box1 h1{
+  font-weight: 600;
+  color: rgb(0, 0, 80);
+  font-size: 50px;
+  margin: 30px 10px;
+}
+#box1 p{
+  font-weight: lighter;
+  color: rgb(0, 0, 80);
+  font-size: x-large;
+  margin: 30px 10px;
+}
+#btns {
+  display: flex;
+}
+#btn1 {
+  padding: 10px 20px;
+  background-color: rgb(45, 164, 203);
+  color: white;
+  width: 20%;
+  margin: 20px 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+}
+#btn1:hover {
+  background-color: rgb(16, 91, 221);
+}
+#btn2 {
+  padding: 10px 20px;
+  width: 20%;
+  color: rgb(45, 164, 203);
+  border: 1px solid rgb(45, 164, 203);
+  margin: 20px 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 5px;
+}
+#btn2:hover {
+  background-color: rgb(198, 220, 228);
+  color: rgb(11, 65, 85);
+  border-color: rgb(11, 65, 85);
+}
+#page2 {
+  height: 87%;
+  width: 100%;
+  background-color: grey;
+}
